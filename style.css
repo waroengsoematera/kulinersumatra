@@ -1,0 +1,471 @@
+:root{
+    --clr-1:#dac494;
+    --clr-2:#eae4cb;
+    --clr-3:#a18032;
+    --clr-4:#f5f0eb;
+    --clr-5:#523a04;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--clr-1);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.warung{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: var(--clr-5);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--clr-5);
+    width: 350px;
+    padding: 5px 0;
+}
+.container{
+    width: 75%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.container .box-konten{
+    height: 480px;
+    width: 390px;
+    background-color: var(--clr-2);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.container .box-konten .con-img{
+    width: 70%;
+    height: 280px;
+    border-radius: 48% 48% 0 0;
+    padding: 8px 8px 0 8px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-color: var(--clr-3);
+    margin-bottom: 10px;
+}
+.container .box-konten .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 48% 48% 0 0;
+    position: relative;
+}
+.container .box-konten .menu-1{
+    background: url(../asset/image/roticanai.webp);
+    background-position: center;
+    background-size: cover;
+}
+.container .box-konten .menu-2{
+    background: url(../asset/image/mieaceh.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.container .box-konten .menu-3{
+    background: url(../asset/image/Dorayaki.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container .box-konten .menu-4{
+    background: url(../asset/image/esKopyor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container .box-konten .img .price{
+    background-color: var(--clr-3);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+}
+.container .box-konten .img .price p{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: var(--clr-2);
+    color: var(--clr-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.container .box-konten .text{
+    text-align: center;
+    font-size: 0.8rem;
+    width: 300px;
+    color: var(--clr-3);
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box-pesan{
+    background-color: var(--clr-4);
+    height: 15vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-pesan button{
+    border: 1px solid;
+    border-color: var(--clr-3);
+    background-color: var(--clr-3);
+    border-radius: 3px;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--clr-4);
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.box-pesan button:hover{
+    transition: 0.5s;
+    background-color: var(--clr-4);
+    color: var(--clr-3);
+    transform: translate(-3px, -3px);
+}
+.box-pesan .bor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid;
+    border-color: var(--clr-3);
+    z-index: -1;
+}
+.box-pesan button:hover .bor{
+    transform: translate(5px, 5px);
+}
+.box-pesan .tambah{
+    height: 15vh;
+    background-color: var(--clr-4);
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: -15vh;
+}
+
+.daftar-menu{
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    padding: 50px 10%;
+    flex-direction: column;
+    gap: 80px;
+}
+.daftar-menu .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    
+}
+.daftar-menu .box-menu{
+    background-color: var(--clr-3);
+    width: 90%;
+    height: 150px;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    padding: 25px 40px 25px 17% ;
+    color: var(--clr-4);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.daftar-menu .box-menu .header{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.daftar-menu .box-menu .ket{
+    width: 400px;
+    color: var(--clr-2);
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.daftar-menu .box-menu .header .harga{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.daftar-menu .menu .img-menu{
+    background-color: var(--clr-1);
+    height: 150px;
+    border-radius: 0 50% 50% 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.daftar-menu .img-menu img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border:8px solid;
+    border-color: var(--clr-1);
+    z-index: 3;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.eror{
+    color: var(--clr-4);
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: none;
+}
+.daftar-menu .form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.daftar-menu .form input{
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 1rem;
+}
+.daftar-menu .form button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--clr-4);
+    color: var(--clr-3);
+}
+.beli{
+    height: 15vh;
+    background-color: var(--clr-4);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-notif{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    display: none;
+}
+.notif{
+    width: 450px;
+    height: 94%;
+    background-color: var(--clr-4);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    position: relative;
+    padding-bottom: 15px;
+}
+.notif .close{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+    color: var(--clr-4);
+}
+.notif-header{
+    background-color: var(--clr-5);
+    height: 70px;
+    color: var(--clr-4);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.notif .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notif .form .in{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+.notif .form .in input,
+.notif .form .in select{
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+.notif .form .in textarea{
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.notif .form button{
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: var(--clr-5);
+    color: var(--clr-4);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img-menu-res{
+    display: none;
+}
+.daftar-menu .menu .form .put{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    *{
+        box-sizing: border-box;
+    }
+    .container {
+        width: 90%;
+        gap: 50px;
+    }
+    .daftar-menu .menu .box-menu{
+        width: 100%;
+        font-size: 80%;
+        min-height: 300px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .daftar-menu .menu .box-menu .ket p{
+        font-size: 80%;
+        text-align: center;
+        /* background-color: #523a04; */
+        width: 80%;
+    }
+    .daftar-menu .menu .box-menu .ket{
+        width: 260px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-menu-res{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .img-menu-res img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    .daftar-menu .menu .box-menu .header{
+        flex-direction: column;
+        justify-content: start;
+        height: auto;
+        line-height: 18px;
+    }
+    .daftar-menu .menu .box-menu .header .harga{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: #523a04;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .daftar-menu .menu .box-menu .title p{
+        font-size: 70%;
+        display: block;
+    }
+    .daftar-menu .menu .img-menu img{
+        width: 140px;
+        height: 140px;
+    }
+    .daftar-menu .menu .img-menu{
+        display: none;
+    }
+    .daftar-menu .menu .form{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    .daftar-menu .menu .form input{
+        width: 80%;
+    }
+    .daftar-menu .menu .form .eror{
+        position: absolute;
+        bottom: -15px;
+    }
+    .container-notif .notif{
+        height: auto;
+        width: 90%;
+    }
+}
