@@ -89,5 +89,5 @@ function kirimWa(){
     +"Menu-4 : "+menu4+"%0a%0a"
     +"Terima Kasih 🙏";
 
-    window.open(url,'_blank').focus();
+    window.open(url).focus();
 }
