@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- end font -->
+    <!-- icon -->
+        <script src="https://unpkg.com/feather-icons"></script>
+    <!-- end icon -->
+</head>
+<body class="pesan">
+    
+    <div class="warung">
+        <h1>Daftar Menu</h1>
+    </div>
+
+    <div class="daftar-menu">
+        <div class="menu">
+            <div class="box-menu">
+                <div class="header">
+                    <div class="title">
+                        <p><i>Nama Makanan</i></p>
+                    </div>
+                    <div class="harga">
+                        <p>7K</p>
+                    </div>
+                </div>
+                <div class="ket">
+                    <p>Makanan Khas Sumatra Yang Terbuat Dari Memek Ayam Dan Jembut Prik</p>
+                </div>
+                <div class="form">
+                    <input id="menu-1" type="number" value="0">
+                    <button id="plus"><i data-feather="plus"></i></button>
+                    <div class="eror">
+                        <p>Tidak Boleh Memesan Lebih Dari 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-menu">
+                <img src="asset/image/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="box-menu">
+                <div class="header">
+                    <div class="title">
+                        <p><i>Nama Makanan</i></p>
+                    </div>
+                    <div class="harga">
+                        <p>7K</p>
+                    </div>
+                </div>
+                <div class="ket">
+                    <p>Makanan Khas Sumatra Yang Terbuat Dari Memek Ayam Dan Jembut Prik</p>
+                </div>
+                <div class="form">
+                    <input id="menu-2" type="number" value="0">
+                    <button id="plus"><i data-feather="plus"></i></button>
+                    <div class="eror">
+                        <p>Tidak Boleh Memesan Lebih Dari 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-menu">
+                <img src="asset/image/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="box-menu">
+                <div class="header">
+                    <div class="title">
+                        <p><i>Nama Makanan</i></p>
+                    </div>
+                    <div class="harga">
+                        <p>7K</p>
+                    </div>
+                </div>
+                <div class="ket">
+                    <p>Makanan Khas Sumatra Yang Terbuat Dari Memek Ayam Dan Jembut Prik</p>
+                </div>
+                <div class="form">
+                    <input id="menu-3" type="number" value="0">
+                    <button id="plus"><i data-feather="plus"></i></button>
+                    <div class="eror">
+                        <p>Tidak Boleh Memesan Lebih Dari 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-menu">
+                <img src="asset/image/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="box-menu">
+                <div class="header">
+                    <div class="title">
+                        <p><i>Nama Makanan</i></p>
+                    </div>
+                    <div class="harga">
+                        <p>7K</p>
+                    </div>
+                </div>
+                <div class="ket">
+                    <p>Makanan Khas Sumatra Yang Terbuat Dari Memek Ayam Dan Jembut Prik</p>
+                </div>
+                <div class="form">
+                    <input id="menu-4" type="number" value="0">
+                    <button id="plus"><i data-feather="plus"></i></button>
+                    <div class="eror">
+                        <p>Tidak Boleh Memesan Lebih Dari 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-menu">
+                <img src="asset/image/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="box-pesan">
+        <div class="tambah"></div>
+        <a>
+            <button id="data" onclick="addNotif()">
+                Pesan Sekarang
+                <div class="bor"></div>
+            </button>
+        </a>
+    </div>
+
+    <div id="notifData" class="container-notif">
+        <div class="notif">
+            <div class="close" onclick="removeNotif()">
+                <i data-feather="x"></i>
+            </div>
+            <div class="notif-header">
+                <h2>Masukkan Data Anda</h2>
+            </div>
+            <form onsubmit="kirimWa()" class="form">
+                <div class="in">
+                    <label for="nama">Nama</label>
+                    <input required type="text" id="nama">
+                </div>
+                <div class="in">
+                    <label for="kelas">Kelas</label>
+                    <select required id="kelas">
+                        <option disabled hidden selected>Pilih Kelas</option>
+                        <option value="X">X</option>
+                        <option value="XI">XI</option>
+                        <option value="XII">XII</option>
+                    </select>
+                </div>
+                <div class="in">
+                    <label for="jurusan">Jurusan</label>
+                    <select required id="jurusan">
+                        <option disabled hidden selected>Pilih Jurusan</option>
+                        <option value="RPL">Rpl</option>
+                        <option value="TKJ">Tkj</option>
+                        <option value="MM/DKV">Dkv/Mm</option>
+                        <option value="Akl">Akl</option>
+                        <option value="PSPTV">Psptv</option>
+                        <option value="PKM/LP">Lp/Pkm</option>
+                        <option value="BD">Bd</option>
+                        <option value="OTKP/MP">Mp/Otkp</option>
+                    </select>
+                </div>
+                <div class="in">
+                    <label for="koketerangan">Catatan Untuk Penjual</label>
+                    <textarea id="keterangan" cols="30" rows="10">
+
+                    </textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
