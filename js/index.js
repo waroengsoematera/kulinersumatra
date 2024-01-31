@@ -62,10 +62,10 @@ function kirimWa(){
     
     const no='+6285791256693';
 
-    menu1=document.getElementById('roti_canai').value;
-    menu2=document.getElementById('mie_aceh').value;
-    menu3=document.getElementById('dorayaki').value;
-    menu4=document.getElementById('es_teler').value;
+    menu1=document.getElementById('menu-1').value;
+    menu2=document.getElementById('menu-2').value;
+    menu3=document.getElementById('menu-3').value;
+    menu4=document.getElementById('menu-4').value;
     nama=document.getElementById('nama').value;
     kelas=document.getElementById('kelas').value;
     jurusan=document.getElementById('jurusan').value;
@@ -84,7 +84,7 @@ function kirimWa(){
     +"*Pesanan :* %0a%0a"
     +"Roti Canai Melayu : "+menu1+"%0a"
     +"Mie Aceh Spesial : "+menu2+"%0a"
-    +"Dorayaki Balik Lagi : "+menu3+"%0a"
+    +"Dorayaki Balik Lagii : "+menu3+"%0a"
     +"Es Teler Palembang : "+menu4+"%0a%0a"
     +"Terima Kasih ";
 
