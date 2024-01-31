@@ -85,7 +85,7 @@ function kirimWa(){
     +"Roti Canai Melayu : "+menu1+"%0a"
     +"Mie Aceh Spesial : "+menu2+"%0a"
     +"Dorayaki Balik Lagii : "+menu3+"%0a"
-    +"Es Teler Palembang : "+menu4+"%0a%0a"
+    +"Es Kopyor Palembang : "+menu4+"%0a%0a"
     +"Terima Kasih ";
 
     window.open(url).focus();
