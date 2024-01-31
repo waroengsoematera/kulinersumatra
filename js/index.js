@@ -62,10 +62,10 @@ function kirimWa(){
     
     const no='+6285791256693';
 
-    menu1=document.getElementById('menu-1').value;
-    menu2=document.getElementById('menu-2').value;
-    menu3=document.getElementById('menu-3').value;
-    menu4=document.getElementById('menu-4').value;
+    menu1=document.getElementById('roti_canai').value;
+    menu2=document.getElementById('mie_aceh').value;
+    menu3=document.getElementById('dorayaki').value;
+    menu4=document.getElementById('es_teler').value;
     nama=document.getElementById('nama').value;
     kelas=document.getElementById('kelas').value;
     jurusan=document.getElementById('jurusan').value;
