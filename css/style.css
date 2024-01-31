@@ -71,7 +71,7 @@ body{
     position: relative;
 }
 .container .box-konten .menu-1{
-    background: url(../asset/image/canaiCoklat.jpg);
+    background: url(../asset/image/roticanai.webp);
     background-position: center;
     background-size: cover;
 }
@@ -86,7 +86,7 @@ body{
     background-size: cover;
 }
 .container .box-konten .menu-4{
-    background: url(../asset/image/teler.jpg);
+    background: url(../asset/image/esKopyor.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -369,7 +369,6 @@ body{
     cursor: pointer;
     border-radius: 5px;
 }
-
 .img-menu-res{
     display: none;
 }
@@ -380,92 +379,93 @@ body{
     gap: 20px;
 }
 
-
 @media only screen and (max-width: 600px){
     *{
         box-sizing: border-box;
     }
-
     .container {
         width: 90%;
         gap: 50px;
     }
-}
-
-
-.daftar-menu .menu .box-menu{
-    width: 100%;
-    font-size: 80%;
-    min-height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    padding-top: 10px;
-}
-.daftar-menu .menu .box-menu .ket p{
-    font-size: 80%;
-    text-align: center;
-    /* background-color: #523a04; */
-    width: 80%;
-}
-.daftar-menu .menu .box-menu .ket{
-    width: 260px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.img-menu-res{
-    display: block;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-}
-.img-menu-res img{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-}
-.daftar-menu .menu .box-menu .header{
-    flex-direction: column;
-    justify-content: start;
-    height: auto;
-    line-height: 18px;
-}
-.daftar-menu .menu .box-menu .header .harga{
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    background-color: #523a04;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.daftar-menu .menu .box-menu .title p{
-    font-size: 70%;
-    display: block;
-}
-.daftar-menu .menu .img-menu img{
-    width: 140px;
-    height: 140px;
-}
-.daftar-menu .menu .img-menu{
-    display: none;
-}
-.daftar-menu .menu .form{
-    display: flex;
-    justify-content: center;
-    /* flex-direction: column; */
-}
-.daftar-menu .menu .form input{
-    width: 80%;
-}
-.daftar-menu .menu .form .eror{
-    position: absolute;
-    bottom: -15px;
+    .daftar-menu .menu .box-menu{
+        width: 100%;
+        font-size: 80%;
+        min-height: 300px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .daftar-menu .menu .box-menu .ket p{
+        font-size: 80%;
+        text-align: center;
+        /* background-color: #523a04; */
+        width: 80%;
+    }
+    .daftar-menu .menu .box-menu .ket{
+        width: 260px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-menu-res{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .img-menu-res img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    .daftar-menu .menu .box-menu .header{
+        flex-direction: column;
+        justify-content: start;
+        height: auto;
+        line-height: 18px;
+    }
+    .daftar-menu .menu .box-menu .header .harga{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: #523a04;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .daftar-menu .menu .box-menu .title p{
+        font-size: 70%;
+        display: block;
+    }
+    .daftar-menu .menu .img-menu img{
+        width: 140px;
+        height: 140px;
+    }
+    .daftar-menu .menu .img-menu{
+        display: none;
+    }
+    .daftar-menu .menu .form{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    .daftar-menu .menu .form input{
+        width: 80%;
+    }
+    .daftar-menu .menu .form .eror{
+        position: absolute;
+        bottom: -15px;
+    }
+    .container-notif .notif{
+        height: auto;
+        width: 90%;
+    }
 }

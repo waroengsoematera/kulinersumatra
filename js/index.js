@@ -62,7 +62,6 @@ function kirimWa(){
     
     const no='+6285791256693';
 
-
     menu1=document.getElementById('menu-1').value;
     menu2=document.getElementById('menu-2').value;
     menu3=document.getElementById('menu-3').value;
@@ -76,7 +75,7 @@ function kirimWa(){
         keterangan = 'Tidak Ada Pesan';
     }
 
-    var url= "https://wa.me/6285791256693"+no+"?text="
+    var url= "https://wa.me/"+no+"?text="
     +"*Data Diri :* %0a%0a"
     +"Nama      : "+nama+"%0a"
     +"Kelas       : "+kelas+"%0a"
@@ -87,7 +86,7 @@ function kirimWa(){
     +"Menu-2 : "+menu2+"%0a"
     +"Menu-3 : "+menu3+"%0a"
     +"Menu-4 : "+menu4+"%0a%0a"
-    +"Terima Kasih 🙏";
+    +"Terima Kasih ";
 
-    window.open(url,'_blank').focus();
+    window.open(url).focus();
 }
