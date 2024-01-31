@@ -76,16 +76,16 @@ function kirimWa(){
     }
 
     var url= "https://wa.me/"+no+"?text="
-    +"*Data Diri :* %0a%0a"
+    +"*Detail Pesanan :* %0a%0a"
     +"Nama      : "+nama+"%0a"
     +"Kelas       : "+kelas+"%0a"
     +"Jurusan   : "+jurusan+"%0a"
     +"Pesan      : "+keterangan+"%0a%0a%0a"
     +"*Pesanan :* %0a%0a"
-    +"Menu-1 : "+menu1+"%0a"
-    +"Menu-2 : "+menu2+"%0a"
-    +"Menu-3 : "+menu3+"%0a"
-    +"Menu-4 : "+menu4+"%0a%0a"
+    +"Roti Canai Melayu : "+menu1+"%0a"
+    +"Mie Aceh Spesial : "+menu2+"%0a"
+    +"Dorayaki Balik Lagi : "+menu3+"%0a"
+    +"Es Teler Palembang : "+menu4+"%0a%0a"
     +"Terima Kasih ";
 
     window.open(url).focus();
